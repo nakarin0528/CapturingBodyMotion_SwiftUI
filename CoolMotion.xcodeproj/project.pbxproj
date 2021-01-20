@@ -12,6 +12,8 @@
 		DBE8404B25B7134500B98EBC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DBE8404A25B7134500B98EBC /* Experience.rcproject */; };
 		DBE8404D25B7134600B98EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE8404C25B7134600B98EBC /* Assets.xcassets */; };
 		DBE8405025B7134600B98EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE8404F25B7134600B98EBC /* Preview Assets.xcassets */; };
+		DBE8406125B7322600B98EBC /* BodyCaptureViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8406025B7322600B98EBC /* BodyCaptureViewContainer.swift */; };
+		DBED0BDA25B860B300B1050C /* character in Resources */ = {isa = PBXBuildFile; fileRef = DBED0BD925B860B300B1050C /* character */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DBE8404C25B7134600B98EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBE8404F25B7134600B98EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBE8405125B7134600B98EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE8406025B7322600B98EBC /* BodyCaptureViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCaptureViewContainer.swift; sourceTree = "<group>"; };
+		DBED0BD925B860B300B1050C /* character */ = {isa = PBXFileReference; lastKnownFileType = folder; path = character; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				DBE8404625B7134500B98EBC /* AppDelegate.swift */,
 				DBE8404825B7134500B98EBC /* ContentView.swift */,
+				DBE8406025B7322600B98EBC /* BodyCaptureViewContainer.swift */,
+				DBED0BD925B860B300B1050C /* character */,
 				DBE8404A25B7134500B98EBC /* Experience.rcproject */,
 				DBE8404C25B7134600B98EBC /* Assets.xcassets */,
 				DBE8405125B7134600B98EBC /* Info.plist */,
@@ -129,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBED0BDA25B860B300B1050C /* character in Resources */,
 				DBE8405025B7134600B98EBC /* Preview Assets.xcassets in Resources */,
 				DBE8404D25B7134600B98EBC /* Assets.xcassets in Resources */,
 			);
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE8404925B7134500B98EBC /* ContentView.swift in Sources */,
+				DBE8406125B7322600B98EBC /* BodyCaptureViewContainer.swift in Sources */,
 				DBE8404725B7134500B98EBC /* AppDelegate.swift in Sources */,
 				DBE8404B25B7134500B98EBC /* Experience.rcproject in Sources */,
 			);
@@ -276,6 +284,7 @@
 				DEVELOPMENT_TEAM = 922P3K9888;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoolMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +306,7 @@
 				DEVELOPMENT_TEAM = 922P3K9888;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoolMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
